@@ -1,0 +1,33 @@
+body
+  font-family : Avenir
+  font-size   : 16pt
+
+.tiny
+  font-size : 0.65em
+
+ul#taches
+  list-style  : none
+  // Une tache
+  li.tache
+    border        : 1px solid #CCC
+    width         : 94%
+    padding       : 5px 20px
+    > input[type="checkbox"]
+      margin-right  : 1em
+    span.tache
+      font-size : 1em
+    div.infos
+      float     : right
+      font-size : 0.85em
+    &.warning
+      background-color    : #DA2231
+      color               : white
+    &.cool
+      background-color    : #00F
+      color               : white
+      opacity             : 0.2
+      &:hover
+        opacity             : 1
+    &.orange, &.actual
+      background-color    : rgb(237, 147, 10)
+      color               : white

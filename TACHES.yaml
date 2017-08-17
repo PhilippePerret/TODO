@@ -1,0 +1,28 @@
+# L'année de l'échéance n'est pas nécessaire si c'est l'année courante
+# Une tâche sans échéance sera considérée à faire dans un an.
+# Pour :actual: à true pour avoir l'échéance en orange ce qui permet d'avoir
+# une tâche à faire aujourd'hui même si elle est prévue pour dans longtemps.
+#
+---
+- :tache: Jours pour UN AN UN SCRIPT
+  :pour: 20 08
+
+- :tache: Commentaires document Khajag
+  :pour: 15 09
+  :actual: true
+
+- :tache: recueil de synopsis
+  :pour: 31 08
+  :actual: true
+
+- :tache: Document Marina
+  :pour:  24 08
+
+- :tache: Document Charlotte
+  :pour:  30 09
+
+- :tache: Programme Script design
+
+- :tache: Déposer les documents sur le QQD (ceux qui doivent l'être)
+  :pour: 18 08
+  :actual: true
