@@ -11,12 +11,9 @@
   :pour: 15 09
   :actual: true
 
-- :tache: recueil de synopsis
+- :tache: Recueil de synopsis
   :pour: 31 08
   :actual: true
-
-- :tache: Document Marina
-  :pour:  24 08
 
 - :tache: Document Charlotte
   :pour:  30 09
@@ -25,4 +22,8 @@
 
 - :tache: Déposer les documents sur le QQD (ceux qui doivent l'être)
   :pour: 18 08
+  :actual: true
+
+- :tache: Enregistrer le document de Khajag envoyé par mail
+  :pour: 17 08
   :actual: true
